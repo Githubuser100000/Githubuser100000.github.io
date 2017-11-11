@@ -1,296 +1,351 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>HTML Reference</title>
-    <!-- no styles right now
-      <link href="styles.css" rel="stylesheet" type="text/css" />
-    -->
-  </head>
-  <body>
-   
-    <h1 id="top">HTML Reference Page</h1>
-    <hr>
-
-    <h2>Hyperlinks</h2>
-    <ul>
-  <li> <a href="#head">Heading Element</a></li>
-  <li> <a href="#title">Title</a></li>
-  <li> <a href="#body">Body</a></li>
-  <li> <a href="#para">Paragraph</a></li>
-  <li> <a href="#breaks">Breaks</a></li>
-  <li> <a href="#lines">Lines</a></li>
-  <li> <a href="#comments">Comments</a></li>
-  <li> <a href="#links">Links</a></li>
-  <li> <a href="#images">Images</a></li>
-  <li> <a href="#lists">Lists</a></li>
-  <li> <a href="#tables">Tables</a></li>
-  <li> <a href="#blocks">Blocks</a></li>
-   
-    <hr>
-    
-    <h2 id="head"> Heading Element</h2>
-    <h3>Description</h3>
-    <p>A heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading </p>
-    <h3>Syntax</h3>
-    <p> You can use H tag when you are writing the code. The numbers 1-6 can be followed after the H tag. These numbers tell you how big the heading is going to be. Look at the display and the example to help you understand the context better. 
+    <body class="body">
+<link href="html-reference.css" rel="stylesheet" type="text/css" />
+<h1>HTML Reference page</h1>
+<table id=table>
+  <tr>
+    <th>Name</th>
+    <th>Start Tag</th>
+    <th>End tag</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>Html</a></td>
+    <td>&lt;html&gt;</td>
+    <td>&lt;&sol;html&gt;</td>
+    <td>&lt;html&gt;head and body&lt;&sol;html&gt;</td>
+    </tr>
+  <tr>
+    <td><a href="#Title">Title</a></td>
+    <td>&lt;title&gt;</td>
+    <td>&lt;&sol;title&gt;</td>
+    <td>&lt;title&gt;heading&lt;&sol;title&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#body">body</a></td>
+    <td>&lt;body&gt;</td>
+    <td>&lt;&sol;body&gt;</td>
+    <td>&lt;body&gt;content&lt;&sol;body&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#Headings">Headings</a></td>
+    <td>&lt;h1&gt;</td>
+    <td>&lt;&sol;h1&gt;</td>
+    <td>&lt;h1&gt;headingt&lt;&sol;h1&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#paragraphs">paragraphs</a></td>
+    <td>&lt;p&gt;</td>
+    <td>&lt;&sol;p&gt;</td>
+    <td>&lt;p&gt;text&lt;&sol;p&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#breaks">breaks</a></td>
+    <td>&lt;br&gt;</td>
+    <td>none</td>
+    <td>&lt;br&gt;content&lt;br&gt;more content</td>
+    </tr>
+<tr>    
+    <td><a href="#lines">lines</a></td>
+    <td>&lt;hr&gt;</td>
+    <td>none</td>
+    <td>&lt;hr&gt;content&lt;hr&gt;more content</td>
+    </tr>
+    <tr>
+ <td><a href="#comments">comments</a></td>
+    <td>&lt;!--comment--&gt;</td>
+    <td>none</td>
+    <td>&lt;!--comment--&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#links">links</a></td>
+    <td>&lt;a href="url"&gt;</td>
+    <td>&lt;&sol;a&gt;</td>
+    <td>&lt;a href="url"&gt;hyperlink text&lt;&sol;a&gt;</td>
+    </tr>
+    <tr>
+ <td><a href="#images">images</a></td>
+    <td>&lt;img src="url"&gt;</td>
+    <td>none</td>
+    <td>&lt;img src="url"&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#lists">lists</a></td>
+    <td>&lt;ul or ol&gt;&lt;li&gt;</td>
+    <td>&lt;&sol;ul or ol&gt;&lt;&sol;li&gt;</td>
+    <td>&lt;ul&gt;&lt;li&gt;item&lt;&sol;li&gt;&lt;&sol;ul&gt;</td>
+    </tr>
+  <tr>    
+    <td><a href="#tables">table</a></td>
+    <td>&lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;td&gt;</td>
+    <td>&lt;&sol;table&gt;&lt;&sol;tr&gt;&lt;&sol;th&gt;&lt;&sol;td&gt;</td>
+    <td>&lt;table&gt;&lt;tr&gt;headings and data&lt;&sol;tr&gt;&lt;&sol;table&gt;</td>
+    </tr>
+    <tr>    
+    <td><a href="#blocks">Blocks</a></td>
+    <td>&lt;div&gt;</td>
+    <td>&lt;&sol;div&gt;</td>
+    <td>&lt;div&gt;filler&lt;&sol;div&gt;</td>
+    </tr>
+  </table>
+  <hr>
+<H2>Heading</H2>
+<p class="mymargin" class="all">A heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading </p>
+<h2>Syntax</h2>
+<ul class="mymargin" "all">
+    <p> Start Tag: &lt;H1&gt;</p>
+    <p>End Tag: &lt;/H1&gt;</p>
+    <p>You can use numbers 1 through 6 to change the size of the heading like this: &lt;H2&gt;Hi&lt;/H2&gt; so it becomes like this</p>
+    <H2>Hi</H2>
+    </ul>
     <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
-<H1>This is a heading</H1>
-
-<H2>Second level heading</H2>
-
-</textarea> </p>
+    <ul class="yomargin" "all">
+    <p>&lt;H1&gt;This is a heading &lt;/H1&gt; </p>
+    <p>&lt;H2&gt;This is the second heading&lt;/H2&gt;</p>
+    </ul>
     <h3>Display</h3>
-    <style> 
-#myHead {
-    width: 300px;
-    height: 200px;
-    background-color: lightblue;
-}
-</style>
-
-<p>This is how the code looks on the website:</p>
-
-
-<div id="myHead">
+    <div id="myHead">
 <h1> This is a heading </h1>
 <h2> This is the second heading </h2>
 </div>
-
-    <h3>W3 Schools Link</h3>
-    <p><a href="https://www.w3schools.com/html/html_headings.asp">Heading tutorial on W3 schools</a></p>
-   <a href="#top">Top</a>
-    <hr>
+<hr>
 
 
-    <h2 id="title" >Title</h2>
-    <h3>Description</h3>
-    <p>The title tag is required in all HTML documents and it defines the title of the document.</p>
-    <h3>Syntax</h3>
-    <p>The title tag can be used in the code to have titles. You must always have a start title tag and an end title tag. The title tag can ONLY BE USED ONCE in the entire code. 
-    </p>
+
+<p id="Title" class="mystyle">Title</p>
+<p class="mymargin" "all">
+ <h2>Description:</h2>
+  <p class="mymargin" class="all"> The title tag is required in all HTML documents and it defines the title of the document.The title tag can be used in the code to have titles. You must always have a start title tag and an end title tag. The title tag can ONLY BE USED ONCE in the entire code.</p>
+  <h3>Syntax</h3>
+<ul class="mymargin" "all">
+    <p> Start Tag: &lt;title&gt;</p>
+    <p> End Tag: &lt;/title&gt;</p>
     <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
-<title>Title of the document</title>
-
-</textarea> </p>
-    
-    <h3>W3 Schools Link</h3>
+    <p> &lt;title&gt;This is the title of the document&lt;/title&gt;</p>
+</ul>
+<h3>W3 Schools Link</h3>
     <p><a href="https://www.w3schools.com/tags/tag_title.asp">Title tutorial on W3 schools</a></p>
     <a href="#top">Top</a>
     <hr>
-    
-       <h2 id="body">Body</h2>
-    <h3>Description</h3>
-    <p> The body tag defines the document's body. The body element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.</p>
-    <h3>Syntax</h3>
-    <p>You can use the body tag to make a body on the html website</p>
-    <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
+
+<p id="body" class="mystyle">Body</p>
+<h2>Description:</h2>
+<p class="mymargin" class="all">The body tag defines the document's body. The body element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.You can use the body tag to make a body on the html website</p>
+<h2>Syntax</h2>
+<ul class="mymargin" class="all">
+    <li><b>start tag:</b>&&lt;body&gt;</li>
+    <li><b>end tag:</b> &lt;&sol;/body&gt;</li>
+</ul>
+<h3>Example</h3>
+    <p class="mymargin" class="all">
+    <p>&lt;body&gt;The content of the documents is displayed&lt;/body&gt;</p>
+</p>
+<h3>Display</h3>
+<div id="myHead">
 <body>
 The content of the document......
 </body>
-
-</textarea></p>
-    <h3>Display</h3>
-    <p><style> 
-#myBody {
-    width: 300px;
-    height: 200px;
-    background-color: lightblue;
-}
-</style>
-
-<p>This is how the code looks on the website:</p>
-
-<div id="myBody">
-<body>
-The content of the document......
-</body>
-</div> </p>
-    <h3>W3 Schools Link</h3>
+</div> 
+<h3>W3 Schools Link</h3>
     <p><a href="https://www.w3schools.com/tags/tag_body.asp">Body tutorial on W3 schools</a></p>
     <a href="#top">Top</a>
     <hr>
 
-        <h2 id="para">Paragraph</h2>
-    <h3>Description</h3>
-    <p> Paragraphs are usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space and/or first-line indentation</p>
-    <h3>Syntax</h3>
-    <p>P tags can be used in the code to make up paragraphs. You always have a start p tag and an end p tag</p>
-    <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
-<p> This is paragraph 1</p>
-<p> This is paragraph 2</p>
-
-</textarea></p>
-    <h3>Display</h3>
-<style> 
-#myPara {
-    width: 300px;
-    height: 200px;
-    background-color: lightblue;
-}
-</style>
-
-<p>This is how the code looks on the website:</p>
-
-
-<div id="myPara">
-<p> This is paragraph 1</p>
-<p> This is paragraph 2</p>
-</div>
-    <h3>W3 Schools Link</h3>
-    <p><a href="https://www.w3schools.com/html/html_paragraphs.asp">Paragraph tutorial on W3 schools</a></p>
-     <a href="#top">Top</a>
-    <hr>
-        <h2 id="breaks">Breaks</h2>
-    <h3>Description</h3>
-    <p>The break tag inserts a single line break.</p>
-    <h3>Syntax</h3>
-    <p>The break tag doesn't have an end tag so it's called an empty tag. </p>
-    <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
+<p id="title" class="mystyle">Breaks</p>
+<h3>Description</h3>
+<p class="mymargin" class="all">The break tag inserts a single line break.The break tag doesn't have an end tag so it's called an empty tag.</p>
+<h3>Syntax</h3>
+<ul class="mymargin" class="all">
+   <p>Start tag: &lt;br&gt;</p>
+</ul>
+<h3>Example</h3>
+    <p> The br element&lt;br&gt;breaks&lt;br&gt;lines&lt;br&gt; </p>
+<div id="myHead">
 <p>
-To break lines<br>in a text,<br>use the br element.
-</p>
-
-</textarea> </p>
-    <h3>Display</h3>
-    <style> 
-#myBreak {
-    width: 300px;
-    height: 200px;
-    background-color: lightblue;
-}
-</style>
-
-<p>This is how the code looks on the website:</p>
-
-
-<div id="myBreak">
-<p>
-To break lines<br>in a text,<br>use the br element.
+The br element<br>breaks<br>lines.
 </p>
 </div>
-    <h3>W3 Schools Link</h3>
+<h3>W3 Schools Link</h3>
     <p><a href="https://www.w3schools.com/tags/tag_br.asp">Breaks tutorial on W3 schools</a></p>
     <a href="#top">Top</a>
     <hr>
-        <h2 id="lines">Lines</h2>
-    <h3>Description</h3> 
-    <p>Description of heading element</p>
-    <h3>Syntax</h3>
-    <p>Syntax of heading element</p>
-    <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
-<p>
-To break lines<br>in a text,<br>use the br element.
-</p>
 
-</textarea> </p>
+<p id="paragraphs" class="mystyle">Paragraphs</p>
+<h3>Description</h3>
+<p class="mymargin" class="all">Paragraphs are usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space and/or first-line indentation</p>
+<h3>Syntax</h3>
+<ul class="mymargin" class="all">
+    <p>Start Tag:&lt;p&gt;</p>
+    <p>End Tag:&lt;/p&gt;</p>
+</ul>
+<h3>Example</h3>
+    <p>&lt;p&gt; This is paragraph 1&lt;/p&gt;<br>&lt;p&gt; This is paragraph 2&lt;/p&gt;</p>
+<h3>Display</h3>
+<div id="myHead">
+<p> This is paragraph 1</p>
+<p> This is paragraph 2</p>
+</div>
+<h3>W3 Schools Link</h3>
+    <p><a href="https://www.w3schools.com/html/html_paragraphs.asp">Paragraph tutorial on W3 schools</a></p>
+     <a href="#top">Top</a>
+    <hr>
+
+
+<p id="lines" class="mystyle">Lines</p>
+<h3>Description</h3> 
+<p class="mymargin" class="all">It puts a horizontal line across a page. The lines element is open ended meaning that it has no end tag. </p>
+<h2>Syntax:</h2>
+<ul class="mymargin" class="all">
+    <p>Start Tag:&lt;hr&gt;</p>
+</ul>
+<h3>Example</h3>
+    <p> This is how the code looks &lt;hr&gt;</p>
     <h3>Display</h3>
-    <p>Show how heading element looks in the browser</p>
-    <h3>W3 Schools Link</h3>
+    <p>This is how the code looks on the website:</p>
+    <div id="myHead">
+<p>
+This is a line<hr>
+</p>
+</div>
+<h3>W3 Schools Link</h3>
     <p><a href="https://www.w3schools.com/tags/tag_hr.asp">Lines tutorial on W3 schools</a></p>
      <a href="#top">Top</a>
     <hr>
-        <h2 id="comments">Comments</h2>
-    <h3>Description</h3>
-    <p>Description of heading element</p>
-    <h3>Syntax</h3>
-    <p>Syntax of heading element</p>
-    <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
-<p>
-To break lines<br>in a text,<br>use the br element.
-</p>
 
-</textarea> </p>
-    <p><a href="https://www.w3schools.com/html/html_comments.asp">Comments tutorial on W3 schools</a></p>
+
+
+<p id="comments" class="mystyle">Comments</p>
+<h3>Description</h3>
+<p class="mymargin" class="all">Comments are things you can add to tell you what revisions were made in the code and you can find your mistake by reading the code.</p> 
+<h2>Syntax</h2>
+<ul class="mymargin" class="all">
+    <p>Comment Tag:&lt;!--text here--!&gt;</p>
+</ul>
+<h3>Example</h3>
+    <p>&lt;!-- This is a comment--!&gt; </p>
+<h3>W3 Schools Link</h3>
+<p><a href="https://www.w3schools.com/html/html_comments.asp">Comments tutorial on W3 schools</a></p>
     <a href="#top">Top</a>
     <hr>
-        <h2 id="links">Links</h2>
-    <h3>Description</h3>
-    <p>Description of heading element</p>
-    <h3>Syntax</h3>
-    <p>Syntax of heading element</p>
-    <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
+    
+<p id="links" class="mystyle">Links</p>
+ <h3>Description</h3>
+<p class="mymargin" class="all">HTML links are hyperlinks. You can click on a link and jump to another document.When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+<h2>Syntax</h2>
+<ul class="mymargin" class="all">
+    <p>Start tag:&lt;a href=......&gt; </p>
+    <p>End tag:&lt;/a&gt; </p>
+</ul>
+<h3>Example</h3>
+    <p>&lt;a href=http://cc.sduhsd.net/&gt;CCA Homepage (how you want the link to show up as)&lt;/a&gt;</p>
+<h3>Display</h3>
+    <p>This is how the code looks on the website:</p>
+    <div id="myHead">
 <p>
-To break lines<br>in a text,<br>use the br element.
+<a href=http://cc.sduhsd.net/>CCA Homepage</a>
 </p>
-
-</textarea> </p>
-    <h3>Display</h3>
-    <p>Show how heading element looks in the browser</p>
+</div>
     <h3>W3 Schools Link</h3>
     <p><a href="https://www.w3schools.com/html/html_links.asp">Links tutorial on W3 schools</a></p>
      <a href="#top">Top</a>
     <hr>
-        <h2 id="images">Images</h2>
-    <h3>Description</h3>
-    <p>Description of heading element</p>
-    <h3>Syntax</h3>
-    <p>Syntax of heading element</p>
-    <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
-<p>
-To break lines<br>in a text,<br>use the br element.
-</p>
 
-</textarea> </p>
-    <h3>Display</h3>
-    <p>Show how heading element looks in the browser</p>
-    <h3>W3 Schools Link</h3>
+
+<p id="images" class="mystyle">Images</p>
+<h3>Description</h3>
+<p class="mymargin" class="all"><p>You can add images to make the website look better.</p>
+<h2> Syntax </h2>
+<ul class="mymargin" class="all">
+    <p>start tag:</b>&lt;img src="url"&gt;<p>
+</ul>
+<h2> Example <h2>
+<p>&lt;img src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/The-stages-of-puppy-growth.jpg?itok=9ptPJwY8" width="55" height="48"&gt;</p>
+<div id="myHead">
+<p>
+<img src="https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/The-stages-of-puppy-growth.jpg?itok=9ptPJwY8" width="250" height="200"> </a>
+</p>
+</div>
+ <h3>W3 Schools Link</h3>
     <p><a href="https://www.w3schools.com/html/html_images.asp">Images tutorial on W3 schools</a></p>
       <a href="#top">Top</a>
     <hr>
-        <h2 id="lists">Lists</h2>
+  
+
+<p id="tables" class="mystyle">Element:Tables</p>
+<h3>Description</h3>
+<p class="mymargin" class="all">An HTML table is defined with the table tag.Each table row is defined with the table row tag. A table header is defined with the table header tag. By default, table headings are bold and centered. A table data/cell is defined with the table data tag.</p>
+<h2>Syntax</h2>
+<ul class="mymargin" class="all">
+<p> Start tag: &lt;table&gt; </p>
+<p> Table Header tag: &lt;th&gt; and &lt;/th&gt;</p>
+<p> Table Row tag: &lt;tr&gt; and &lt;/tr&gt;</p>
+<p> Table Data tag: &lt;td&gt; and &lt;/td&gt;</p>
+<p> End tag: &lt;/table&gt; </p>
+</ul>
+<h3>Example</h3>
+    <p>&lt;table&gt;<br>&lt;tr&gt;<br> &lt;th&gt;Owner&lt;/th&gt;<br>&lt;th&gt;Name&lt;/th&gt;<br>&lt;th&gt;Cat/Dog&lt;/th&gt;<br> &lt;/tr&gt;<br>&lt;tr&gt;<br>&lt;th&gt;Sanjana&lt;/th&gt;<br>&lt;th&gt;Maggie&lt;/th&gt;<br>&lt;th&gt;Dog&lt;/th&gt;<br>&lt;/tr&gt;<br> &lt;tr&gt;<br> &lt;th&gt;Sanjana&lt;/th&gt;<br>&lt;th&gt;Genledyn&lt;/th&gt;<br>&lt;th&gt;Dog&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;</p>
+  <h3>Display</h3>
+  <p>This is how the code looks on the website:</p>
+  <div id="myHead">
+<table>
+  <tr>
+    <th>Owner</th>
+    <th>Name</th>
+    <th>Cat/Dog</th>
+  </tr>
+  <tr>
+    <td>Sanjana</td>
+    <td>Maggie</td>
+    <td>Dog</td>
+  </tr>
+  <tr>
+    <td>Mia</td>
+    <td>Geneldyn</td>
+    <td>Cat</td>
+  </tr>
+</table>
+    <h3>W3 Schools Link</h3>
+    <p><a href="https://www.w3schools.com/html/html_tables.asp">Tables tutorial on W3 schools</a></p>
+      <a href="#top">Top</a>
+    <hr>
+
+<!--Links-->
+<p id="blocks" class="mystyle">Blocks</p>
+<h3>Description</h3>
+<p class="mymargin" class="all">The DIV element is a block element, and will start the text on a new line.</p>
+<h2>Syntax</h2>
+<ul class="mymargin" class="all">
+    <p>Start Tag: &lt;div&gt;</p>
+    <p>End Tag: &lt;/div&gt;</p>
+</ul>
+<h3>Example</h3>
+    <p>&lt;div&gt;Hi&lt;/div&gt;<br>&lt;div&gt;I am &lt;/div&gt;<br>&lt;div&gt;Sanjana Bollapragada&lt;/div&gt; </p>
+      <h3>Display</h3>
+<p>This is how the code looks on the website:</p>
+<div id="myHead">
+<div> Hi </div> 
+<div> I am </div>
+<div> Sanjana Bollapragada</div>
+    <h3>W3 Schools Link</h3>
+    <p><a href="https://www.w3schools.com/html/html_blocks.asp">Blocks tutorial on W3 schools</a></p>
+     <a href="#top">Top</a>
+    <hr>
+
+<h2 id="lists">Lists</h2>
     <h3>Description</h3>
     <p>Description of heading element</p>
     <h3>Syntax</h3>
     <p>Syntax of heading element</p>
     <h3>Example</h3>
-    <p><textarea disabled="true" style="border: none;background-color:white;" width="500" height="100">
-<p>
-To break lines<br>in a text,<br>use the br element.
-</p>
-
-</textarea> </p>
+    <p> Example of lists (code)</p>
     <h3>Display</h3>
     <p>Show how heading element looks in the browser</p>
     <h3>W3 Schools Link</h3>
     <p><a href="https://www.w3schools.com/html/html_lists.asp">Lists tutorial on W3 schools</a></p>
       <a href="#top">Top</a>
     <hr>
-        <h2 id="tables">Tables</h2>
-    <h3>Description</h3>
-    <p>Description of heading element</p>
-    <h3>Syntax</h3>
-    <p>Syntax of heading element</p>
-    <h3>Example</h3>
-    <p>An example of using the heading element</p>
-    <h3>Display</h3>
-    <p>Show how heading element looks in the browser</p>
-    <h3>W3 Schools Link</h3>
-    <p><a href="https://www.w3schools.com/html/html_tables.asp">Tables tutorial on W3 schools</a></p>
-      <a href="#top">Top</a>
-    <hr>
-        <h2 id="blocks">Blocks</h2>
-    <h3>Description</h3>
-    <p>Description of heading element</p>
-    <h3>Syntax</h3>
-    <p>Syntax of heading element</p>
-    <h3>Example</h3>
-    <p>An example of using the heading element</p>
-    <h3>Display</h3>
-    <p>Show how heading element looks in the browser</p>
-    <h3>W3 Schools Link</h3>
-    <p><a href="https://www.w3schools.com/html/html_blocks.asp">Blocks tutorial on W3 schools</a></p>
-     <a href="#top">Top</a>
-    <hr>
-    </body>
+
+  </body>
 </html>
