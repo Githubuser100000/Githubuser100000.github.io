@@ -11,11 +11,9 @@
    <h2>This image is choosen according to the size of the viewport.</h2>
 
     <div>
-      <img src='/images/sunset20.png 1000w'
-         srcset='/images/sunset20.png 1000w,
-                 /images/sunset50.png 2000w,
-                 /images/sunset80.png 3500w,
-                 /images/sunsetmax.png 5000w,'>
+      <img src='/images/sunset(701x468)png'
+         srcset='/images/sunset(1752x1168)png,
+                 /images/2804 × 1869 png.png,'>
     </div>
 
   </body>
